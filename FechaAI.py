@@ -7,7 +7,7 @@ import streamlit as st
 from dotenv import load_dotenv
 from sqlalchemy import create_engine, text
 from sqlalchemy.exc import ProgrammingError
-from streamlit_javascript import st_javascript
+#from streamlit_javascript import st_javascript
 
 # ────────────────────────────────────────
 # 1. Variáveis de ambiente (Cloud / local)
