@@ -1,4 +1,4 @@
-# 📊 Inteligência Comercial Cequip – v1.7 (Corrigido NameError)
+# 📊 Inteligência Comercial Cequip – v1.7
 import os
 from datetime import datetime
 import pandas as pd
