@@ -44,7 +44,7 @@ def quote_ident(name: str) -> str:
 ORC_TABLE = quote_ident(PG_TBL_ORC)
 
 DB_URL = (
-    "postgresql+psycopg2://{u}:{p}@{h}:{port}/{db}".format(
+    "postgresql+psycopg://{u}:{p}@{h}:{port}/{db}".format(
         u=ul.quote_plus(PG_USER),
         p=ul.quote_plus(PG_PWD),
         h=PG_HOST,
