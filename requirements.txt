@@ -3,7 +3,7 @@ plotly
 pandas
 numpy
 SQLAlchemy
-psycopg2-binary==2.9.6
+psycopg[binary]
 python-dotenv
 openpyxl
 pyarrow
